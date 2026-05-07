@@ -30,7 +30,7 @@ export type AppEntry = {
   tags: string[];
 };
 
-// TODO: replace with real publications
+// Publications
 export const publications: Publication[] = [
   {
     title:
@@ -49,13 +49,13 @@ export const publications: Publication[] = [
 
 // TODO: replace with real notes (will eventually become MDX posts)
 export const notes: Note[] = [
-  // {
-  //   title: "Why fixed income is the last great quant frontier",
-  //   date: "2026-03-12",
-  //   description:
-  //     "Equity microstructure is a saturated field. Fixed income — fragmented, opaque, and structurally dealer-intermediated — still rewards careful modeling and patient data work. A short note on what makes it different.",
-  //   slug: "fixed-income-frontier",
-  // },
+  {
+    title: "Placeholder",
+    date: "2026-03-12",
+    description:
+      "Placeholder note.",
+    slug: "placeholder-note",
+  },
   
 
 ];
