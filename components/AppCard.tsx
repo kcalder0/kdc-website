@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Lock } from "lucide-react";
 import type { AppEntry } from "@/lib/data";
 
 const STATUS_STYLES: Record<AppEntry["status"], string> = {
@@ -18,7 +19,14 @@ function CardBody({ app }: { app: AppEntry }) {
           {app.status}
         </span>
       </div>
-      <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{app.description}</p>
+      <p className="mt-3 text-sm leading-relaxed text-muted">{app.description}</p>
+      {app.passwordProtectedRefresh && (
+        <p className="mt-2 flex items-center gap-1.5 text-xs text-muted-2">
+          <Lock className="h-3 w-3" aria-hidden="true" />
+          <span>Manual refresh password protected</span>
+        </p>
+      )}
+      <div className="flex-1" />
       {app.tags.length > 0 && (
         <ul className="mt-4 flex flex-wrap gap-1.5">
           {app.tags.map((tag) => (

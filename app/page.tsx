@@ -16,8 +16,7 @@ export default function HomePage() {
             Available @ <a href="mailto:kylecalder@g.harvard.edu" className="text-accent">kylecalder@g.harvard.edu</a> or <a href="mailto:kyledcalder@gmail.com" className="text-accent">kyledcalder@gmail.com</a>
 
             <br /><br />
-            This site collects my publications, longer-form notes, and a
-              few random(?) apps.
+            This site collects my publications, random memos, and apps I host here for my own use.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-3">

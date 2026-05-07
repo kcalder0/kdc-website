@@ -28,6 +28,7 @@ export type AppEntry = {
   href: string;
   status: "Live" | "In Development" | "Planned";
   tags: string[];
+  passwordProtectedRefresh?: boolean;
 };
 
 // Publications
@@ -67,8 +68,9 @@ export const apps: AppEntry[] = [
     description:
       "Interactive visualization of the US Treasury par yield curve with historical comparison, similar period detection, and a curated fixed income news feed.",
     href: "/apps/ust",
-    status: "In Development",
+    status: "Live",
     tags: ["Fixed Income", "Visualization", "D3"],
+    passwordProtectedRefresh: true,
   },
   {
     title: "Coming soon",

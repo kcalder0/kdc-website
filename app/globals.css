@@ -20,6 +20,10 @@
 
   --accent: #ed8a63;
   --accent-hover: #e07a50;
+
+  --ust-bg: #0f1117;
+  --ust-panel: #1a1d27;
+  --ust-panel-2: #232735;
 }
 
 @theme inline {
@@ -42,6 +46,10 @@
 
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
+
+  --color-ust-bg: var(--ust-bg);
+  --color-ust-panel: var(--ust-panel);
+  --color-ust-panel-2: var(--ust-panel-2);
 
   --font-sans: var(--font-inter);
 }

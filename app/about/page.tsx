@@ -48,7 +48,9 @@ export default function AboutPage() {
             <br /><br />
             Over summer 2026, I will be working as a quantitative research intern at Fidelity Investments on the Fixed Income team in Boston, MA and Merrimack, NH.
             <br /><br />
-            I am always interested in contributing to research in ML, NLP and applications to economics and finance.
+            I am always interested in contributing to research in ML, NLP and applications to economics and finance. 
+            Please reach out at <a href="mailto:kylecalder@g.harvard.edu" className="text-accent">kylecalder@g.harvard.edu</a> or 
+            <a href="mailto:kyledcalder@gmail.com" className="text-accent">kyledcalder@gmail.com</a> if you are interested in collaborating.
             <br /><br />
             I worked as an economic consultant at Charles River Associates, an economic consulting firm in Boston for 6 years. My work and research focused on market microstructure and manipulation, cryptocurrency and securities laws, and economic valuations.
             <br /><br />
